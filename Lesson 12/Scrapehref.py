@@ -1,6 +1,5 @@
 import urllib.request, urllib.parse, urllib.error
 from bs4 import BeautifulSoup
-name = None
 lst = list()
 url = "http://py4e-data.dr-chuck.net/known_by_Mariella.html"
 for i in range(7):
