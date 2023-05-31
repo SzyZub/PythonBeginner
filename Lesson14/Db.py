@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect("DB2.sqlite")
+conn = sqlite3.connect("Lesson14/DB2.sqlite")
 cur = conn.cursor()
 cur.execute("DROP TABLE IF EXISTS Counts")
 cur.execute("CREATE TABLE Counts (org TEXT, count INTEGER)")
